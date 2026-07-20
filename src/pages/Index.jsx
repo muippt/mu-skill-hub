@@ -946,7 +946,14 @@ desc: "一个 Skill 搞定从创作到质量门控的自建Skill全流程——3
     tag: "办公Office"
   }],
 
-  professional: [],
+  professional: [
+  {
+    name: "📋Q12敬业度调研助手",
+    desc: "基于盖洛普Q12的AI敬业度调研工具 — 从问卷设计、交互式测评、结果解读到90天改进计划，一站式提升团队敬业度。",
+    link: "https://muippt.github.io/mu-q12-survey/",
+    stars: 5,
+    tag: "HR工具"
+  }],
 
 };
 
