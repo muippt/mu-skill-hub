@@ -923,7 +923,7 @@ desc: "一个 Skill 搞定从创作到质量门控的自建Skill全流程——3
 tag: "Skill管理"
 },
 {
-  name: "🧬Agent进化系统",
+  name: "🧬Agent自我反思与进化器",
   desc: "AI Agent 持续进化系统 — 每日经验沉淀+每周错误反思，正向提炼与负向纠偏合一，让你的 Agent 越用越聪明。",
   link: "https://github.com/muippt/mu-self-evolve",
   stars: 5,
