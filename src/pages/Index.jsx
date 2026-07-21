@@ -920,8 +920,15 @@ name: "🔧Skill创作发明家",
 desc: "一个 Skill 搞定从创作到质量门控的自建Skill全流程——3大设计决策 · 32条反模式 · 10层审计模型 · 自动化脚本。",
     link: "https://muippt.github.io/mu-skill-creator/",
     stars: 5,
-    tag: "Skill管理"
-  }],
+tag: "Skill管理"
+},
+{
+  name: "🧬Agent进化系统",
+  desc: "AI Agent 持续进化系统 — 每日经验沉淀+每周错误反思，正向提炼与负向纠偏合一，让你的 Agent 越用越聪明。",
+  link: "https://github.com/muippt/mu-self-evolve",
+  stars: 5,
+  tag: "Agent工具"
+}],
 
   office: [
   {
@@ -934,7 +941,7 @@ desc: "一个 Skill 搞定从创作到质量门控的自建Skill全流程——3
   {
     name: "📊 Excel全能工具箱",
     desc: "一句话搞定合并、拆分、关联、图表、透视表、函数公式等22项Excel操作，告别重复劳动，再也不用手写公式和VBA。",
-    link: "https://github.com/muippt/mu-excel-toolbox",
+    link: "https://muippt.github.io/mu-excel-toolbox/",
     stars: 5,
     tag: "办公Office"
   },
