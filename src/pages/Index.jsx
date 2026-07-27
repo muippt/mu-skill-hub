@@ -411,7 +411,7 @@ function HeroSection() {
           
           <LobsterDecor size="text-5xl md:text-7xl" delay={0.2} />
           <motion.h1
-            className="text-5xl md:text-7xl font-black tracking-tight"
+            className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tight whitespace-nowrap"
             style={{
               fontFamily: "'Noto Sans SC', sans-serif",
               background: "linear-gradient(135deg, #FF6B35 0%, #FFD700 30%, #FF9F1C 60%, #FF6B35 100%)",
