@@ -700,7 +700,7 @@ const categories = [
   subtitle: "Office Productivity",
   count: 14,
   desc: "不分岗位、不分专业——打工人都需要的通用技能！从PPT设计、Excel数据分析、文档写作、去AI味……全面覆盖日常高频的办公场景！",
-  tags: ["PPT设计", "Excel数据分析", "写作润色", "会议管理", "头脑风暴", "更多 \u2192"],
+  tags: ["PPT设计", "Excel数据分析", "写作润色", "会议管理", "AI味消除", "更多 \u2192"],
   gradient: "linear-gradient(135deg, #1a0800 0%, #2d1200 100%)",
   borderColor: "rgba(255,107,53,0.4)",
   tagBg: "rgba(255,107,53,0.15)",
