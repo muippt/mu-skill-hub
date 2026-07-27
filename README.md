@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-# 🦞 mu-skill-hub
+# 🦞 mu-skill-hub · 木先生的Skill🦞AI盗木空间
 
 > A curated collection of AI Skills — office productivity, specialist workflows, and essential tooling — explore, preview, and install with one click.
 

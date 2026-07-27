@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-# 🦞 mu-skill-hub
+# 🦞 mu-skill-hub · 木先生的Skill🦞AI盗木空间
 
 > 精选 AI Skill 集合——覆盖办公通用、专业细分、装机必备三大类别，一键浏览、预览、安装。
 
