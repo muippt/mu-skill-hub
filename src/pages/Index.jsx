@@ -422,7 +422,7 @@ function HeroSection() {
             animate={{ backgroundPosition: ["0% center", "100% center", "0% center"] }}
             transition={{ duration: 4, repeat: Infinity, ease: "linear" }}>
 
-龙虾Skill大宝库
+Agent Skill大宝库
 </motion.h1>
           <LobsterDecor size="text-5xl md:text-7xl" delay={0.5} />
         </motion.div>
