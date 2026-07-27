@@ -417,7 +417,9 @@ function HeroSection() {
               background: "linear-gradient(135deg, #FF6B35 0%, #FFD700 30%, #FF9F1C 60%, #FF6B35 100%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
-              backgroundSize: "300% auto"
+              backgroundSize: "300% auto",
+              lineHeight: 1.2,
+              paddingBottom: "0.15em"
             }}
             animate={{ backgroundPosition: ["0% center", "100% center", "0% center"] }}
             transition={{ duration: 4, repeat: Infinity, ease: "linear" }}>
