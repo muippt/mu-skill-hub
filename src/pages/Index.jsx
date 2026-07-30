@@ -930,6 +930,13 @@ tag: "Skill管理"
   link: "https://muippt.github.io/mu-self-evolve/",
   stars: 5,
   tag: "Agent工具"
+},
+{
+  name: "🎯Skill严选猎手",
+  desc: "四大源头（GitHub/ClawHub/SkillHub/Skills.sh）一站搜索发现 AI Skill，12条规则安全扫描把关，每周自动推送趋势报告。",
+  link: "https://muippt.github.io/mu-skill-hunter/",
+  stars: 5,
+  tag: "Skill管理"
 }],
 
   office: [
