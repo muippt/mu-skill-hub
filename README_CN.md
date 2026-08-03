@@ -12,7 +12,7 @@
 
 [English](README.md) | **中文** | [🌐 在线主页](https://muippt.github.io/mu-skill-hub/)
 
-[![微信公众号](https://img.shields.io/badge/muippt-07C160?logo=wechat&logoColor=white)](https://mp.weixin.qq.com/s/YLtXENt_7WzO2DgJCFUtPA) [![小红书](https://img.shields.io/badge/muippt-FF2442?logo=xiaohongshu&logoColor=white)](https://xhslink.com/m/ESxtgUNMdl) [![书籍](https://img.shields.io/badge/书籍-图解团队管理-BBDDE5?logo=bookstack&logoColor=white)](https://item.m.jd.com/product/14547345.html) [![mu-skill集合](https://img.shields.io/badge/mu--skill集合-9E95B7?logo=simpleicons&logoColor=white)](https://muippt.github.io/mu-skill-hub/) [![License](https://img.shields.io/github/license/muippt/mu-skill-hub)](LICENSE) [![Stars](https://img.shields.io/github/stars/muippt/mu-skill-hub)](https://github.com/muippt/mu-skill-hub/stargazers)
+[![微信公众号](https://img.shields.io/badge/muippt-07C160?logo=wechat&logoColor=white)](https://mp.weixin.qq.com/s/YLtXENt_7WzO2DgJCFUtPA) [![小红书](https://img.shields.io/badge/muippt-FF2442?logo=xiaohongshu&logoColor=white)](https://xhslink.com/m/ESxtgUNMdl) [![书籍](https://img.shields.io/badge/书籍-图解团队管理-BBDDE5?logo=bookstack&logoColor=white)](https://item.m.jd.com/product/14547345.html) [![mu-skill集合](https://img.shields.io/badge/mu--skill集合-9E95B7?logo=refinedgithub&logoColor=white)](https://muippt.github.io/mu-skill-hub/) [![License](https://img.shields.io/github/license/muippt/mu-skill-hub)](LICENSE) [![Stars](https://img.shields.io/github/stars/muippt/mu-skill-hub)](https://github.com/muippt/mu-skill-hub/stargazers)
 
 ## 🗂️ 三大 Skill 分类
 

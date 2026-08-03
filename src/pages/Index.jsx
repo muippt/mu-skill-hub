@@ -1467,7 +1467,7 @@ function FooterSection() {
             rel="noopener noreferrer"
             style={{ display: "inline-flex", lineHeight: 0 }}>
             <img
-              src="https://img.shields.io/badge/mu--skill%E9%9B%86%E5%90%88-9E95B7?logo=simpleicons&logoColor=white"
+              src="https://img.shields.io/badge/mu--skill%E9%9B%86%E5%90%88-9E95B7?logo=refinedgithub&logoColor=white"
               alt="mu-skill集合"
               style={{ height: 20, borderRadius: 4 }} />
           </a>
