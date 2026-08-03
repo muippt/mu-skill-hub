@@ -1388,40 +1388,6 @@ function FooterSection() {
 
           </motion.p>
 
-          {/* AI盗木空间链接 */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.7, delay: 1 }}
-            className="mt-10">
-            
-            <a
-              href="https://github.com/muippt"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 px-6 py-3 rounded-2xl text-sm no-underline transition-all duration-200"
-              style={{
-                background: "rgba(255,107,53,0.06)",
-                border: "1px solid rgba(255,107,53,0.2)",
-                color: "#ffffff",
-                cursor: "pointer"
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.background = "rgba(255,107,53,0.14)";
-                e.currentTarget.style.borderColor = "rgba(255,107,53,0.5)";
-                e.currentTarget.style.boxShadow = "0 0 20px rgba(255,107,53,0.2)";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.background = "rgba(255,107,53,0.06)";
-                e.currentTarget.style.borderColor = "rgba(255,107,53,0.2)";
-                e.currentTarget.style.boxShadow = "none";
-              }}>
-
-              <Zap size={13} style={{ color: "#FF9F1C" }} />
-              <span style={{ color: "#FF9F1C" }}>更多Skill持续创作中，详见AI盗木空间</span>
-              <Zap size={13} style={{ color: "#FF9F1C" }} />
-            </a>
-          </motion.div>
         </motion.div>
 
         {/* 底部标记 */}
