@@ -1432,7 +1432,7 @@ function FooterSection() {
           className="mt-16 flex flex-wrap items-center justify-center gap-3">
           
           <a
-            href="https://mp.weixin.qq.com/s/v1JSZvlN5fvbOOHvkvXEtA"
+            href="https://mp.weixin.qq.com/s/YLtXENt_7WzO2DgJCFUtPA"
             target="_blank"
             rel="noopener noreferrer"
             style={{ display: "inline-flex", lineHeight: 0 }}>
@@ -1459,6 +1459,16 @@ function FooterSection() {
             <img
               src="https://img.shields.io/badge/%E8%91%97%E4%BD%9C-%E3%80%8A%E5%9B%BE%E8%A7%A3%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86%E3%80%8B-BBDDE5?logo=bookstack&logoColor=white"
               alt="著作 《图解团队管理》"
+              style={{ height: 20, borderRadius: 4 }} />
+          </a>
+          <a
+            href="https://muippt.github.io/mu-skill-hub/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: "inline-flex", lineHeight: 0 }}>
+            <img
+              src="https://img.shields.io/badge/mu--skill%E9%9B%86%E5%90%88-9E95B7?logo=simpleicons&logoColor=white"
+              alt="mu-skill集合"
               style={{ height: 20, borderRadius: 4 }} />
           </a>
           <a
