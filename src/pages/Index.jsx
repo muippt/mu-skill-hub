@@ -969,6 +969,13 @@ tag: "Skill管理"
     link: "https://muippt.github.io/mu-q12-survey/",
     stars: 5,
     tag: "HR工具"
+  },
+  {
+    name: "🧠批判性思维提问教练",
+    desc: "基于《学会提问》的批判性思维实战教练 — 12维度论证评估、逻辑谬误识别、苏格拉底式追问、决策审计、数据陷阱识别。",
+    link: "https://muippt.github.io/mu-critical-thinking/",
+    stars: 5,
+    tag: "思维训练"
   }],
 
 };
