@@ -955,11 +955,11 @@ tag: "Skill管理"
     tag: "办公Office"
   },
   {
-    name: "🔄 PDF文件转换器",
-    desc: "高保真PDF格式转换工具 — 四层叠加解析、三引擎表格提取、外文自动翻译，将 PDF 转为完全可编辑的 PowerPoint、Word、Excel 和图片。",
-    link: "https://muippt.github.io/mu-pdf-converter/",
-    stars: 5,
-    tag: "办公Office"
+name: "🔄 PDF文件转换器",
+desc: "高保真PDF格式转换工具 — 四层叠加解析、三引擎表格提取、外文自动翻译，将 PDF 转为完全可编辑的 PowerPoint、Word、Excel 和图片。",
+link: "https://muippt.github.io/mu-pdf-converter/",
+stars: 4,
+tag: "办公Office"
   }],
 
   professional: [
