@@ -976,6 +976,13 @@ tag: "办公Office"
     link: "https://muippt.github.io/mu-critical-thinking/",
     stars: 5,
     tag: "思维训练"
+  },
+  {
+    name: "🔺金字塔原理逻辑教练",
+    desc: "结构化表达实战教练 — 7类逻辑诊断、MECE互斥穷尽检查、SCQA四种变体、自上而下与自下而上双向构建。",
+    link: "https://muippt.github.io/mu-pyramid-principle/",
+    stars: 5,
+    tag: "思维训练"
   }],
 
 };
