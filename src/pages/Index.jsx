@@ -983,6 +983,13 @@ tag: "办公Office"
     link: "https://muippt.github.io/mu-pyramid-principle/",
     stars: 5,
     tag: "思维训练"
+  },
+  {
+    name: "🌱职场高效能习惯养成教练",
+    desc: "基于《高效能人士的七个习惯》，提供习惯诊断、打卡计划、使命宣言撰写等全流程辅导。",
+    link: "https://muippt.github.io/mu-highly-effective/",
+    stars: 5,
+    tag: "思维训练"
   }],
 
 };
