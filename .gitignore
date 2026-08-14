@@ -7,6 +7,5 @@ dist
 .DS_Store
 .catpaw/
 hmr-client.js
-yarn.lock
 src/contexts/NoCodeContext.jsx
 src/integrations/
