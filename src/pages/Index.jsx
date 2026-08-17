@@ -960,9 +960,16 @@ desc: "高保真PDF格式转换工具 — 四层叠加解析、三引擎表格�
 link: "https://muippt.github.io/mu-pdf-converter/",
 stars: 4,
 tag: "办公Office"
-  }],
+},
+{
+name: "✍️写作AI味消除与扫雷仪",
+desc: "消除AI写作痕迹，扫码书面禁用词不踩坑，让文字自然得体、让你的写作更有人味！",
+link: "https://muippt.github.io/mu-humanizer-minesweeping/",
+stars: 5,
+tag: "写作工具"
+}],
 
-  professional: [
+professional: [
   {
     name: "📋Q12敬业度调研助手",
     desc: "基于盖洛普Q12的AI敬业度调研工具 — 从问卷设计、交互式测评、结果解读到90天改进计划，一站式提升团队敬业度。",
