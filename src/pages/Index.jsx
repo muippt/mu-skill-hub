@@ -937,6 +937,13 @@ tag: "Skill管理"
   link: "https://muippt.github.io/mu-skill-hunter/",
   stars: 5,
   tag: "Skill管理"
+},
+{
+  name: "🛠️人虾协作开发工作流",
+  desc: "Agent代码/Skill开发守门员，先对齐需求和方向，不要乱做浪费Token！",
+  link: "https://muippt.github.io/mu-dev-workflow/",
+  stars: 5,
+  tag: "开发工具"
 }],
 
   office: [
