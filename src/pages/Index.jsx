@@ -345,7 +345,7 @@ function HeroSection() {
         className="absolute inset-0"
         style={{
           background:
-          "radial-gradient(ellipse at 20% 30%, #1a0a00 0%, #0d0d0d 40%, #0a0a14 100%)"
+          "radial-gradient(ellipse at 20% 30%, #1a0a00 0%, #0d0d0d 40%, #08080a 100%)"
         }} />
 
       {/* 流体噪声背景 */}
@@ -536,12 +536,12 @@ function SkillableSection() {
     <section
       className="relative py-28 px-6 overflow-hidden"
       style={{
-        background: "linear-gradient(180deg, #0a0a14 0%, #0f0a00 50%, #140a00 100%)"
+        background: "linear-gradient(180deg, #08080a 0%, #0a0806 50%, #08080a 100%)"
       }}>
       {/* 顶部过渡遮罩 */}
-      <div className="absolute top-0 left-0 right-0 h-24 pointer-events-none z-10" style={{ background: "linear-gradient(to bottom, #080810, transparent)" }} />
+      <div className="absolute top-0 left-0 right-0 h-48 pointer-events-none z-10" style={{ background: "linear-gradient(to bottom, #08080a, transparent)" }} />
       {/* 底部过渡遮罩 */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 pointer-events-none z-10" style={{ background: "linear-gradient(to top, #0e0800, transparent)" }} />
+      <div className="absolute bottom-0 left-0 right-0 h-48 pointer-events-none z-10" style={{ background: "linear-gradient(to top, #08080a, transparent)" }} />
       
       {/* 流体光影 */}
       <FluidBackground blobs={[
@@ -858,12 +858,12 @@ function CategoriesSection() {
     <section
       className="relative py-28 px-6 overflow-hidden"
       style={{
-        background: "linear-gradient(180deg, #140a00 0%, #0a0010 50%, #000814 100%)"
+        background: "linear-gradient(180deg, #08080a 0%, #0a0a0a 50%, #08080a 100%)"
       }}>
       {/* 顶部过渡遮罩 */}
-      <div className="absolute top-0 left-0 right-0 h-32 pointer-events-none z-10" style={{ background: "linear-gradient(to bottom, #0e0800, transparent)" }} />
+      <div className="absolute top-0 left-0 right-0 h-48 pointer-events-none z-10" style={{ background: "linear-gradient(to bottom, #08080a, transparent)" }} />
       {/* 底部过渡遮罩 */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 pointer-events-none z-10" style={{ background: "linear-gradient(to top, #000810, transparent)" }} />
+      <div className="absolute bottom-0 left-0 right-0 h-48 pointer-events-none z-10" style={{ background: "linear-gradient(to top, #08080a, transparent)" }} />
 
       {/* 流体光影 */}
       <FluidBackground blobs={[
@@ -1230,12 +1230,12 @@ function SkillMatrixSection() {
     <section
       className="relative py-28 px-6 overflow-hidden"
       style={{
-        background: "linear-gradient(180deg, #000814 0%, #070710 50%, #0a0a0a 100%)"
+        background: "linear-gradient(180deg, #08080a 0%, #0a0a0a 50%, #08080a 100%)"
       }}>
       {/* 顶部过渡遮罩 */}
-      <div className="absolute top-0 left-0 right-0 h-32 pointer-events-none z-10" style={{ background: "linear-gradient(to bottom, #000810, transparent)" }} />
+      <div className="absolute top-0 left-0 right-0 h-48 pointer-events-none z-10" style={{ background: "linear-gradient(to bottom, #08080a, transparent)" }} />
       {/* 底部过渡遮罩 */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 pointer-events-none z-10" style={{ background: "linear-gradient(to top, #090908, transparent)" }} />
+      <div className="absolute bottom-0 left-0 right-0 h-48 pointer-events-none z-10" style={{ background: "linear-gradient(to top, #08080a, transparent)" }} />
 
       {/* 流体光影 */}
       <FluidBackground blobs={[
@@ -1362,10 +1362,10 @@ function FooterSection() {
     <section
       className="relative py-32 px-6 overflow-hidden"
       style={{
-        background: "linear-gradient(180deg, #0a0a0a 0%, #0d0500 50%, #1a0800 100%)"
+        background: "linear-gradient(180deg, #08080a 0%, #0a0a0a 50%, #08080a 100%)"
       }}>
       {/* 顶部过渡遮罩 */}
-      <div className="absolute top-0 left-0 right-0 h-32 pointer-events-none z-10" style={{ background: "linear-gradient(to bottom, #090908, transparent)" }} />
+      <div className="absolute top-0 left-0 right-0 h-48 pointer-events-none z-10" style={{ background: "linear-gradient(to bottom, #08080a, transparent)" }} />
 
       {/* 流体光影 */}
       <FluidBackground blobs={[
@@ -1493,7 +1493,7 @@ const Index = () => {
   return (
     <div
       className="w-full min-h-screen"
-      style={{ background: "#0a0a0a", color: "#fff" }}>
+      style={{ background: "#08080a", color: "#fff" }}>
       
       <ScrollProgressBar />
       <MouseGlow />
