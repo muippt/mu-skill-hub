@@ -9,3 +9,5 @@ dist
 hmr-client.js
 src/contexts/NoCodeContext.jsx
 src/integrations/
+# 锁文件：本项目统一使用 yarn（CI 用 yarn install --frozen-lockfile），npm lockfile 不入库
+package-lock.json

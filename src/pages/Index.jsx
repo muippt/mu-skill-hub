@@ -695,14 +695,14 @@ function SkillableSection() {
 // ====== 模块3：三大类别 ======
 const categories = [
 {
-  id: "office",
-  icon: Briefcase,
-  emoji: "💼",
-  title: "办公通用",
-  subtitle: "Office Productivity",
-  count: 14,
-  desc: "不分岗位、不分专业——打工人都需要的通用技能！从PPT设计、Excel数据分析、文档写作、去AI味……全面覆盖日常高频的办公场景！",
-  tags: ["PPT设计", "Excel数据分析", "写作润色", "会议管理", "AI味消除", "更多 \u2192"],
+  id: "professional",
+  icon: Target,
+  emoji: "🎯",
+  title: "专业细分",
+  subtitle: "Specialist Skills",
+  count: 0,
+  desc: "按岗位、专业、职位深度定制的专项Skill！覆盖团队管理、HR专业、设计、自媒体等专业细分场景……这也是创建Sub Agent的关键能力库！",
+  tags: ["团队管理", "HR技能", "设计工具", "微信文章", "小红书图文", "更多 \u2192"],
   gradient: "linear-gradient(135deg, #1a0800 0%, #2d1200 100%)",
   borderColor: "rgba(255,107,53,0.4)",
   tagBg: "rgba(255,107,53,0.15)",
@@ -713,22 +713,22 @@ const categories = [
   badgeColor: "#FF6B35"
 },
 {
-  id: "professional",
-  icon: Target,
-  emoji: "🎯",
-  title: "专业细分",
-  subtitle: "Specialist Skills",
-  count: 0,
-  desc: "按岗位、专业、职位深度定制的专项Skill！覆盖团队管理、HR专业、设计、自媒体等专业细分场景……这也是创建Sub Agent的关键能力库！",
-  tags: ["团队管理", "HR技能", "设计工具", "微信文章", "小红书图文", "更多 \u2192"],
-  gradient: "linear-gradient(135deg, #0a0f00 0%, #1a2000 100%)",
-  borderColor: "rgba(180,220,60,0.35)",
-  tagBg: "rgba(150,200,50,0.12)",
-  tagColor: "#AADF2E",
-  accentColor: "#B4DC3C",
-  glowColor: "rgba(180,220,60,0.15)",
-  badgeBg: "rgba(150,200,50,0.2)",
-  badgeColor: "#AADF2E"
+  id: "office",
+  icon: Briefcase,
+  emoji: "💼",
+  title: "办公通用",
+  subtitle: "Office Productivity",
+  count: 14,
+  desc: "不分岗位、不分专业——打工人都需要的通用技能！从PPT设计、Excel数据分析、文档写作、去AI味……全面覆盖日常高频的办公场景！",
+  tags: ["PPT设计", "Excel数据分析", "写作润色", "会议管理", "AI味消除", "更多 \u2192"],
+  gradient: "linear-gradient(135deg, #000a1a 0%, #001228 100%)",
+  borderColor: "rgba(80,180,255,0.35)",
+  tagBg: "rgba(60,160,255,0.12)",
+  tagColor: "#5BC8FF",
+  accentColor: "#50B4FF",
+  glowColor: "rgba(80,180,255,0.15)",
+  badgeBg: "rgba(60,160,255,0.2)",
+  badgeColor: "#50B4FF"
 },
 {
   id: "essential",
@@ -739,14 +739,14 @@ const categories = [
   count: 9,
   desc: "就像电脑装机必备软件，是AI工作流的基础能力包——自我进化、Token管理、垃圾清理、Skill搜索与创建……让你的龙虾小助手从零到满状态！",
   tags: ["自我进化", "Token管理", "垃圾清理", "Skill创建", "安全防护", "更多 \u2192"],
-  gradient: "linear-gradient(135deg, #000a1a 0%, #001228 100%)",
-  borderColor: "rgba(80,180,255,0.35)",
-  tagBg: "rgba(60,160,255,0.12)",
-  tagColor: "#5BC8FF",
-  accentColor: "#50B4FF",
-  glowColor: "rgba(80,180,255,0.15)",
-  badgeBg: "rgba(60,160,255,0.2)",
-  badgeColor: "#50B4FF"
+  gradient: "linear-gradient(135deg, #0a0f00 0%, #1a2000 100%)",
+  borderColor: "rgba(180,220,60,0.35)",
+  tagBg: "rgba(150,200,50,0.12)",
+  tagColor: "#AADF2E",
+  accentColor: "#B4DC3C",
+  glowColor: "rgba(180,220,60,0.15)",
+  badgeBg: "rgba(150,200,50,0.2)",
+  badgeColor: "#AADF2E"
 }];
 
 
@@ -1010,40 +1010,40 @@ professional: [
 
 const tabConfig = [
 {
-key: "office",
-label: "💼 办公通用",
-color: "#FF6B35",
-borderColor: "rgba(255,107,53,0.4)",
-bg: "rgba(255,107,53,0.08)",
-tagBg: "rgba(255,107,53,0.15)",
-tagColor: "#FF9F1C",
-cardBorder: "rgba(255,107,53,0.2)",
-cardBg: "linear-gradient(135deg, rgba(255,107,53,0.06) 0%, rgba(255,159,28,0.03) 100%)",
-linkColor: "#FF9F1C"
+  key: "professional",
+  label: "🎯 专业细分",
+  color: "#FF6B35",
+  borderColor: "rgba(255,107,53,0.4)",
+  bg: "rgba(255,107,53,0.08)",
+  tagBg: "rgba(255,107,53,0.15)",
+  tagColor: "#FF9F1C",
+  cardBorder: "rgba(255,107,53,0.2)",
+  cardBg: "linear-gradient(135deg, rgba(255,107,53,0.06) 0%, rgba(255,159,28,0.03) 100%)",
+  linkColor: "#FF9F1C"
 },
 {
-key: "professional",
-label: "🎯 专业细分",
-color: "#AADF2E",
-borderColor: "rgba(180,220,60,0.35)",
-bg: "rgba(150,200,50,0.08)",
-tagBg: "rgba(150,200,50,0.15)",
-tagColor: "#AADF2E",
-cardBorder: "rgba(150,200,50,0.2)",
-cardBg: "linear-gradient(135deg, rgba(150,200,50,0.06) 0%, rgba(120,180,30,0.03) 100%)",
-linkColor: "#AADF2E"
+key: "office",
+label: "💼 办公通用",
+color: "#50B4FF",
+borderColor: "rgba(80,180,255,0.35)",
+bg: "rgba(60,160,255,0.08)",
+tagBg: "rgba(60,160,255,0.15)",
+tagColor: "#5BC8FF",
+cardBorder: "rgba(80,180,255,0.2)",
+cardBg: "linear-gradient(135deg, rgba(80,180,255,0.06) 0%, rgba(50,130,220,0.03) 100%)",
+linkColor: "#5BC8FF"
 },
 {
   key: "essential",
   label: "🔧 装机必备",
-  color: "#50B4FF",
-  borderColor: "rgba(80,180,255,0.35)",
-  bg: "rgba(60,160,255,0.08)",
-  tagBg: "rgba(60,160,255,0.15)",
-  tagColor: "#5BC8FF",
-  cardBorder: "rgba(80,180,255,0.2)",
-  cardBg: "linear-gradient(135deg, rgba(80,180,255,0.06) 0%, rgba(50,130,220,0.03) 100%)",
-  linkColor: "#5BC8FF"
+  color: "#AADF2E",
+  borderColor: "rgba(180,220,60,0.35)",
+  bg: "rgba(150,200,50,0.08)",
+  tagBg: "rgba(150,200,50,0.15)",
+  tagColor: "#AADF2E",
+  cardBorder: "rgba(150,200,50,0.2)",
+  cardBg: "linear-gradient(135deg, rgba(150,200,50,0.06) 0%, rgba(120,180,30,0.03) 100%)",
+  linkColor: "#AADF2E"
 }];
 
 
@@ -1098,7 +1098,7 @@ function SkillCard({ skill, tab, index, isInView }) {
         <div className="flex flex-col items-center justify-center flex-1 gap-3 relative z-10 text-center">
           {/* 主标题 */}
           <h4 className="font-bold leading-snug" style={{ fontSize: "24px", color: tab.color }}>
-            美团管理主干Skill大全
+            管理主干Skill大全
           </h4>
 
           {/* 副标题 */}
@@ -1221,7 +1221,7 @@ function SkillCard({ skill, tab, index, isInView }) {
 // ====== 模块4：真实 Skill 卡片矩阵 ======
 function SkillMatrixSection() {
   const [ref, isInView] = useScrollReveal(0.05);
-  const [activeTab, setActiveTab] = useState("office");
+  const [activeTab, setActiveTab] = useState("professional");
 
   const currentTab = tabConfig.find((t) => t.key === activeTab);
   const currentSkills = allSkills[activeTab] || [];

@@ -8,7 +8,7 @@
 
 set -euo pipefail
 
-REPO_DIR="/Users/mr.mu/MU Mei/MU CatDesk/mu-skill-hub"
+REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 MSG="${1:-chore: update skill cards}"
 REPO_URL="https://github.com/muippt/mu-skill-hub.git"
 
