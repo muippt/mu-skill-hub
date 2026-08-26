@@ -974,6 +974,13 @@ desc: "消除AI写作痕迹，扫码书面禁用词不踩坑，让文字自然�
 link: "https://muippt.github.io/mu-humanizer-minesweeping/",
 stars: 5,
 tag: "写作工具"
+},
+{
+name: "📅高效会议管理助手",
+desc: "会前查忙闲订会议室，会中主持指导，会后纪要提TODO，全流程自动化",
+link: "https://muippt.github.io/mu-meeting-flow/",
+stars: 4,
+tag: "会议管理"
 }],
 
 professional: [
