@@ -1011,6 +1011,13 @@ professional: [
     link: "https://muippt.github.io/mu-highly-effective/",
     stars: 5,
     tag: "思维训练"
+  },
+  {
+    name: "🧭MBTI人格职业测评",
+    desc: "三档题库深度测评，中英双语PDF人格与职业报告",
+    link: "https://muippt.github.io/mu-mbti-job/",
+    stars: 5,
+    tag: "测评工具"
   }],
 
 };
