@@ -975,15 +975,22 @@ link: "https://muippt.github.io/mu-humanizer-minesweeping/",
 stars: 5,
 tag: "写作工具"
 },
-{
-name: "📅高效会议管理助手",
-desc: "会前查忙闲订会议室，会中主持指导，会后纪要提TODO，全流程自动化",
-link: "https://muippt.github.io/mu-meeting-flow/",
-stars: 4,
-tag: "会议管理"
-}],
+  {
+    name: "📅高效会议管理助手",
+    desc: "会前查忙闲订会议室，会中主持指导，会后纪要提TODO，全流程自动化",
+    link: "https://muippt.github.io/mu-meeting-flow/",
+    stars: 4,
+    tag: "会议管理"
+  },
+  {
+    name: "📚电子书下载器",
+    desc: "还在为下载电子书发愁？聚合海内外书源，一键获取可下载的电子书！",
+    link: "https://muippt.github.io/mu-ebook-scout/",
+    stars: 4,
+    tag: "资源检索"
+  }],
 
-professional: [
+  professional: [
   {
     name: "📋Q12敬业度调研助手",
     desc: "基于盖洛普Q12的AI敬业度调研工具 — 从问卷设计、交互式测评、结果解读到90天改进计划，一站式提升团队敬业度。",

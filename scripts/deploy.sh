@@ -4,29 +4,20 @@
 # 注意: 实际部署由 .github/workflows/deploy.yml 完成，本脚本只需提交源码即可
 #
 # 用法: bash scripts/deploy.sh "commit message"
-# 环境变量: GITHUB_TOKEN - GitHub PAT，用于 git push 认证和查询 Actions 状态（必须）
+# 认证: git push 使用本机已配置的 Git credential helper；Actions 查询使用公开 GitHub API。
 
 set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 MSG="${1:-chore: update skill cards}"
-REPO_URL="https://github.com/muippt/mu-skill-hub.git"
 
 cd "$REPO_DIR"
 
-# 认证检查
-if [ -z "${GITHUB_TOKEN:-}" ]; then
-  echo "ERROR: 未设置 GITHUB_TOKEN 环境变量" >&2
-  exit 1
-fi
-
-AUTH_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/muippt/mu-skill-hub.git"
-
-# 1. 提交并推送源码到 main 分支
-if [ -n "$(git status --porcelain)" ]; then
-  git add -A
+# 1. 提交并推送已跟踪的源码，避免本地配置和构建缓存进入公开提交
+if [ -n "$(git status --porcelain --untracked-files=no)" ]; then
+  git add -u
   git commit -m "$MSG"
-  git push "$AUTH_URL" main
+  git push origin main
   echo "[1/2] 源码已推送到 main，GitHub Actions 将自动触发构建和部署"
 else
   echo "[1/2] 无源码变更，跳过提交"
@@ -34,7 +25,7 @@ fi
 
 # 2. 检查 GitHub Actions 部署状态
 sleep 5
-RUN_ID=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+RUN_ID=$(curl -fsS \
   "https://api.github.com/repos/muippt/mu-skill-hub/actions/runs?per_page=1" \
   | python3 -c "import json,sys; runs=json.load(sys.stdin).get('workflow_runs',[]); print(runs[0]['id'] if runs else '')" 2>/dev/null || echo "")
 

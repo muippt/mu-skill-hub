@@ -9,7 +9,6 @@
 
 import json
 import os
-import re
 import subprocess
 import sys
 import urllib.request
@@ -21,25 +20,10 @@ REPO_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INDEX_FILE = os.path.join(REPO_DIR, "src", "pages", "Index.jsx")
 
 
-def get_token():
-    """从 git credential store 提取 GitHub token。"""
-    path = os.path.expanduser("~/.git-credentials")
-    try:
-        with open(path) as f:
-            for line in f:
-                m = re.search(r"(ghp_[A-Za-z0-9]+)@github\.com", line)
-                if m:
-                    return m.group(1)
-    except OSError:
-        pass
-    return None
-
-
-def fetch_repos(token):
+def fetch_repos():
+    """通过 GitHub 公开 API 获取仓库列表。"""
     url = f"https://api.github.com/users/{GITHUB_USER}/repos?type=public&per_page=100"
     req = urllib.request.Request(url)
-    if token:
-        req.add_header("Authorization", f"token {token}")
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.loads(resp.read().decode())
 
@@ -58,12 +42,8 @@ def landing_page_ok(repo):
 
 
 def main():
-    token = get_token()
-    if not token:
-        print("WARN: 未找到 GitHub token，改用未认证请求（可能触发限流）", file=sys.stderr)
-
     try:
-        repos = fetch_repos(token)
+        repos = fetch_repos()
     except Exception as e:
         print(f"ERROR: 获取仓库列表失败: {e}")
         return 1
