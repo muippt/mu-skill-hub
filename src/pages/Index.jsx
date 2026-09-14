@@ -983,7 +983,7 @@ tag: "写作工具"
     tag: "会议管理"
   },
   {
-    name: "📚电子书下载器",
+    name: "📚免费电子书下载器",
     desc: "还在为下载电子书发愁？聚合海内外书源，一键获取可下载的电子书！",
     link: "https://muippt.github.io/mu-ebook-scout/",
     stars: 4,
