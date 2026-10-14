@@ -944,6 +944,13 @@ tag: "Skill管理"
   link: "https://muippt.github.io/mu-dev-workflow/",
   stars: 5,
   tag: "开发工具"
+},
+{
+  name: "🤖多Agent协作军团",
+  desc: "多 Agent 协作方法论，复杂任务像带团队一样带 Agent",
+  link: "https://muippt.github.io/mu-multi-agent/",
+  stars: 4,
+  tag: "Agent管理"
 }],
 
   office: [
